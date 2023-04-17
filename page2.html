@@ -10,25 +10,26 @@
         <a href="page3.html" class="nav-button">Resources</a>
         <a href="page4.html" class="nav-button">Examples</a>
     </nav>
+    <main>
     <fieldset>
         <legend>Add new resource or example</legend>
-        <div>
+        <div class="form-field">
             <label for="url">URL</label>
             <input type="text" id="url" name="url">
         </div>
-        <div>
+        <div class="form-field">
             <label for="name">Name</label>
             <input type="text" id="name" name="name">
         </div>
-        <div>
-            <input type="checkbox" id="copyright">
+        <div class="form-field">
+            <input type="checkbox" id="copyright" name="copyright">
             <label for="copyright">The resource or example is publicly available and does not break copyright</label>
         </div>
-        <div>
+        <div class="form-field">
             <label for="description">Description</label>
-            <textarea id="description"></textarea>
+            <textarea id="description" name="description"></textarea>
         </div>
         <button type="submit">Submit</button>
     </fieldset>
-
+    </main>
 </body>
